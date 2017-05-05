@@ -1,0 +1,22 @@
+{
+  "name": "happymap",
+  "version": "1.0.0",
+  "description": "node app backend for happymap",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zimiw/happymap-back.git"
+  },
+  "keywords": [
+    "happymap"
+  ],
+  "author": "zimiw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zimiw/happymap-back/issues"
+  },
+  "homepage": "https://github.com/zimiw/happymap-back#readme"
+}
