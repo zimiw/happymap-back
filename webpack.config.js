@@ -54,6 +54,10 @@ module.exports = {
                 test: /\.less/,
                 exclude: /^node_modules$/,
                 loader: ExtractTextPlugin.extract('style-loader', 'css-loader!autoprefixer-loader!less-loader')
+            },{
+                test: /\.(eot|woff|svg|ttf|woff2|gif|appcache)(\?|$)/,
+                exclude: /^node_modules$/,
+                loader: 'file-loader?name=[name].[ext]'
             }, {
                 test: /\.(png|jpg)$/,
                 exclude: /^node_modules$/,
